@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <!--This is a sign up page for my portfolio website-->
+    <div align="center"><br>
+        <img src="../../images/tag.jpg" alt="Image not found..." height="100px">
+        <h1>Create Your Free Account</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input type="text" id="name" placeholder="Enter full name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No. </label></td>
+                    <td><input type="tel" id="phone" placeholder="xxxx-xxxxxxx"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" placeholder="example1@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label for="dob"> Date of Birth: </label></td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country: </label></td>
+                    <td>
+                        <select name="country" id="country">
+                        <option value="Select">Please Select</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="UK">UK</option> </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender: </label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="skills">Skills:</label></td>
+                    <td>
+                        <input type="checkbox" id="c" name="skills">
+                        <label for="c">C</label>
+                        <input type="checkbox" id="c++" name="skills">
+                        <label for="c++">C++</label>
+                        <input type="checkbox" id="java" name="skills">
+                        <label for="java">Java</label>
+                        <input type="checkbox" id="js" name="skills">
+                        <label for="js">JS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password: </label></td>
+                    <td><input type="password" id="password" placeholder="Enter a strong password" required></td>
+                </tr>
+            </table><br>
+            <button type="submit">Clear All</button>&nbsp;
+            <button type="submit"><a href="../../index.html" style="color: black;">Sign Up</a>
+            </button>
+        </form>
+        <p>Already have an account? 
+        <a href="sign-in.html">Sign In</a></p>
+        
+    </div>
+</body>
+</html>

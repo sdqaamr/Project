@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>   <!--creating the form-->
+    <form align="center">                               <!--using div tag to add line breaks easily-->
+        <div>Name: <input type="text" placeholder="Enter full name" required></div>
+        <br>                                          <!--using required attribute to set that the field must be filled-->
+        <div>D/Birth: <input type="date" required></div>
+        <br>
+        <div>
+            Gender: <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+        </div>
+        <br>
+        <div>Father's Name: <input type="text"></div>
+        <br>
+        <div>Phone Number: <input type="tel" placeholder="xxxx-xxxxxxx"></div>
+        <br>
+        <div>Address: <input type="text" placeholder="Enter permanent address"></div>
+        <br>
+        <div>Email: <input type="email" placeholder="example1@gmail.com"></div>
+        <br>
+        <div>
+            Department: <input type="radio" name="depart">CS
+                        <input type="radio" name="depart">IT
+                        <input type="radio" name="depart">SE
+        </div>
+        <br>
+        <div>Marks: <input type="number" placeholder="Enter previous marks"></div>
+        <br>
+        <div>
+            Courses: <input type="checkbox" name="courses">C
+                     <input type="checkbox" name="courses">C++ 
+                     <input type="checkbox" name="courses">Java
+                     <input type="checkbox" name="courses">AI
+        </div>
+        <br>
+        <div>Photo: <input type="file" required></div>
+        <br>
+        <div>
+            Blood Group: 
+            <select>
+                <option value="Select">Please Select</option>
+                <option value="A">A</option>
+                <option value="A+">A+</option>
+                <option value="B">B</option>
+                <option value="B+">B+</option>
+            </select>
+        </div>
+        <br>
+        <div>Password: <input type="password" required placeholder="Enter strong password"></div>
+        <br>
+        <div>Confirm Password: <input type="password" required placeholder="Re-enter that password"></div>
+        <br>
+        <input type="reset" value="CLEAR">       <!--the reset attribute is used to clear the filled data-->
+        <button type="submit">SUBMIT</button>    <!--submitting the data...-->
+    </form>
+</body>
+</html>
